@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B165BBE2AAA131600B23AFD /* VoiceMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BBD2AAA131600B23AFD /* VoiceMessage.swift */; };
+		9B165BC02AAA133200B23AFD /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BBF2AAA133200B23AFD /* Keyboard.swift */; };
+		9B165BC12AAA133200B23AFD /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BBF2AAA133200B23AFD /* Keyboard.swift */; };
+		9B165BC22AAA133200B23AFD /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BBF2AAA133200B23AFD /* Keyboard.swift */; };
+		9B165BC42AAA135600B23AFD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC32AAA135600B23AFD /* Contacts.swift */; };
+		9B165BC52AAA135600B23AFD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC32AAA135600B23AFD /* Contacts.swift */; };
+		9B165BC62AAA135600B23AFD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC32AAA135600B23AFD /* Contacts.swift */; };
+		9B165BC82AAA136200B23AFD /* LastCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC72AAA136200B23AFD /* LastCalls.swift */; };
+		9B165BC92AAA136200B23AFD /* LastCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC72AAA136200B23AFD /* LastCalls.swift */; };
+		9B165BCA2AAA136200B23AFD /* LastCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BC72AAA136200B23AFD /* LastCalls.swift */; };
+		9B165BCC2AAA137200B23AFD /* QuickCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BCB2AAA137200B23AFD /* QuickCall.swift */; };
+		9B165BCD2AAA137200B23AFD /* QuickCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BCB2AAA137200B23AFD /* QuickCall.swift */; };
+		9B165BCE2AAA137200B23AFD /* QuickCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BCB2AAA137200B23AFD /* QuickCall.swift */; };
+		9B165BD12AAA17E200B23AFD /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD02AAA17E200B23AFD /* KeyboardButton.swift */; };
+		9B165BD22AAA17E200B23AFD /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD02AAA17E200B23AFD /* KeyboardButton.swift */; };
+		9B165BD32AAA17E200B23AFD /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD02AAA17E200B23AFD /* KeyboardButton.swift */; };
+		9B165BD52AAA1ABD00B23AFD /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD42AAA1ABD00B23AFD /* CallButton.swift */; };
+		9B165BD62AAA1ABD00B23AFD /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD42AAA1ABD00B23AFD /* CallButton.swift */; };
+		9B165BD72AAA1ABD00B23AFD /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B165BD42AAA1ABD00B23AFD /* CallButton.swift */; };
 		9B56B8912AA8B5C800F3512F /* PhoneBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B8902AA8B5C800F3512F /* PhoneBookApp.swift */; };
 		9B56B8932AA8B5C800F3512F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B8922AA8B5C800F3512F /* ContentView.swift */; };
 		9B56B8952AA8B5C900F3512F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B56B8942AA8B5C900F3512F /* Assets.xcassets */; };
@@ -34,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B165BBD2AAA131600B23AFD /* VoiceMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMessage.swift; sourceTree = "<group>"; };
+		9B165BBF2AAA133200B23AFD /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		9B165BC32AAA135600B23AFD /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		9B165BC72AAA136200B23AFD /* LastCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastCalls.swift; sourceTree = "<group>"; };
+		9B165BCB2AAA137200B23AFD /* QuickCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCall.swift; sourceTree = "<group>"; };
+		9B165BD02AAA17E200B23AFD /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		9B165BD42AAA1ABD00B23AFD /* CallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
 		9B56B88D2AA8B5C800F3512F /* PhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56B8902AA8B5C800F3512F /* PhoneBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookApp.swift; sourceTree = "<group>"; };
 		9B56B8922AA8B5C800F3512F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B165BBC2AAA12FD00B23AFD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9B165BCB2AAA137200B23AFD /* QuickCall.swift */,
+				9B165BC72AAA136200B23AFD /* LastCalls.swift */,
+				9B165BC32AAA135600B23AFD /* Contacts.swift */,
+				9B165BBF2AAA133200B23AFD /* Keyboard.swift */,
+				9B165BBD2AAA131600B23AFD /* VoiceMessage.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9B165BCF2AAA17CD00B23AFD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9B165BD02AAA17E200B23AFD /* KeyboardButton.swift */,
+				9B165BD42AAA1ABD00B23AFD /* CallButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		9B56B8842AA8B5C800F3512F = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +141,8 @@
 		9B56B88F2AA8B5C800F3512F /* PhoneBook */ = {
 			isa = PBXGroup;
 			children = (
+				9B165BCF2AAA17CD00B23AFD /* Components */,
+				9B165BBC2AAA12FD00B23AFD /* Screens */,
 				9B56B8902AA8B5C800F3512F /* PhoneBookApp.swift */,
 				9B56B8922AA8B5C800F3512F /* ContentView.swift */,
 				9B56B8942AA8B5C900F3512F /* Assets.xcassets */,
@@ -257,8 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B165BCC2AAA137200B23AFD /* QuickCall.swift in Sources */,
 				9B56B8932AA8B5C800F3512F /* ContentView.swift in Sources */,
 				9B56B8912AA8B5C800F3512F /* PhoneBookApp.swift in Sources */,
+				9B165BC02AAA133200B23AFD /* Keyboard.swift in Sources */,
+				9B165BD12AAA17E200B23AFD /* KeyboardButton.swift in Sources */,
+				9B165BBE2AAA131600B23AFD /* VoiceMessage.swift in Sources */,
+				9B165BD52AAA1ABD00B23AFD /* CallButton.swift in Sources */,
+				9B165BC42AAA135600B23AFD /* Contacts.swift in Sources */,
+				9B165BC82AAA136200B23AFD /* LastCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B165BD22AAA17E200B23AFD /* KeyboardButton.swift in Sources */,
+				9B165BC12AAA133200B23AFD /* Keyboard.swift in Sources */,
+				9B165BC92AAA136200B23AFD /* LastCalls.swift in Sources */,
+				9B165BD62AAA1ABD00B23AFD /* CallButton.swift in Sources */,
 				9B56B8A22AA8B5C900F3512F /* PhoneBookTests.swift in Sources */,
+				9B165BC52AAA135600B23AFD /* Contacts.swift in Sources */,
+				9B165BCD2AAA137200B23AFD /* QuickCall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +336,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B165BC62AAA135600B23AFD /* Contacts.swift in Sources */,
+				9B165BD32AAA17E200B23AFD /* KeyboardButton.swift in Sources */,
+				9B165BCE2AAA137200B23AFD /* QuickCall.swift in Sources */,
+				9B165BD72AAA1ABD00B23AFD /* CallButton.swift in Sources */,
 				9B56B8AE2AA8B5C900F3512F /* PhoneBookUITestsLaunchTests.swift in Sources */,
+				9B165BC22AAA133200B23AFD /* Keyboard.swift in Sources */,
 				9B56B8AC2AA8B5C900F3512F /* PhoneBookUITests.swift in Sources */,
+				9B165BCA2AAA136200B23AFD /* LastCalls.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
