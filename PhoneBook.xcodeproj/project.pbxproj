@@ -33,6 +33,8 @@
 		9B56B8A22AA8B5C900F3512F /* PhoneBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B8A12AA8B5C900F3512F /* PhoneBookTests.swift */; };
 		9B56B8AC2AA8B5C900F3512F /* PhoneBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B8AB2AA8B5C900F3512F /* PhoneBookUITests.swift */; };
 		9B56B8AE2AA8B5C900F3512F /* PhoneBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56B8AD2AA8B5C900F3512F /* PhoneBookUITestsLaunchTests.swift */; };
+		9BAFCDE02AB39C36001C63DD /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFCDDF2AB39C36001C63DD /* ContactsList.swift */; };
+		9BC4D88E2AB4787A00DD1A58 /* ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC4D88D2AB4787A00DD1A58 /* ContactDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		9B56B8A72AA8B5C900F3512F /* PhoneBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B56B8AB2AA8B5C900F3512F /* PhoneBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookUITests.swift; sourceTree = "<group>"; };
 		9B56B8AD2AA8B5C900F3512F /* PhoneBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BAFCDDF2AB39C36001C63DD /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		9BC4D88D2AB4787A00DD1A58 /* ContactDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B165BBC2AAA12FD00B23AFD /* Screens */ = {
+		9B165BBC2AAA12FD00B23AFD /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
 				9B165BCB2AAA137200B23AFD /* QuickCall.swift */,
@@ -106,7 +110,7 @@
 				9B165BBF2AAA133200B23AFD /* Keyboard.swift */,
 				9B165BBD2AAA131600B23AFD /* VoiceMessage.swift */,
 			);
-			path = Screens;
+			path = Tabs;
 			sourceTree = "<group>";
 		};
 		9B165BCF2AAA17CD00B23AFD /* Components */ = {
@@ -141,8 +145,9 @@
 		9B56B88F2AA8B5C800F3512F /* PhoneBook */ = {
 			isa = PBXGroup;
 			children = (
+				9BAFCDE12AB39D09001C63DD /* Screens */,
 				9B165BCF2AAA17CD00B23AFD /* Components */,
-				9B165BBC2AAA12FD00B23AFD /* Screens */,
+				9B165BBC2AAA12FD00B23AFD /* Tabs */,
 				9B56B8902AA8B5C800F3512F /* PhoneBookApp.swift */,
 				9B56B8922AA8B5C800F3512F /* ContentView.swift */,
 				9B56B8942AA8B5C900F3512F /* Assets.xcassets */,
@@ -174,6 +179,15 @@
 				9B56B8AD2AA8B5C900F3512F /* PhoneBookUITestsLaunchTests.swift */,
 			);
 			path = PhoneBookUITests;
+			sourceTree = "<group>";
+		};
+		9BAFCDE12AB39D09001C63DD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9BAFCDDF2AB39C36001C63DD /* ContactsList.swift */,
+				9BC4D88D2AB4787A00DD1A58 /* ContactDetail.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,8 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B165BCC2AAA137200B23AFD /* QuickCall.swift in Sources */,
+				9BAFCDE02AB39C36001C63DD /* ContactsList.swift in Sources */,
 				9B56B8932AA8B5C800F3512F /* ContentView.swift in Sources */,
 				9B56B8912AA8B5C800F3512F /* PhoneBookApp.swift in Sources */,
+				9BC4D88E2AB4787A00DD1A58 /* ContactDetail.swift in Sources */,
 				9B165BC02AAA133200B23AFD /* Keyboard.swift in Sources */,
 				9B165BD12AAA17E200B23AFD /* KeyboardButton.swift in Sources */,
 				9B165BBE2AAA131600B23AFD /* VoiceMessage.swift in Sources */,
