@@ -26,7 +26,7 @@ struct Keyboard: View {
         KeyboardInterface(number: 9, key: "WXYZ"),
     ]
     
-    let rows = [
+    let columns = [
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible()),
@@ -45,15 +45,22 @@ struct Keyboard: View {
             VStack{
                 Text(phoneNumber).padding(.bottom, 5).font(.largeTitle).lineLimit(1)
                 if phoneNumber.count > 0 {
-                    Button {
+                    Menu("Numarayı Ekle") {
+                        Button {
+                            print("")
+                        } label: {
+                            Label("Yeni Kişi Yarat", systemImage: "person.crop.circle")
+                        }
                         
-                    } label: {
-                        Text("Numarayı Ekle").font(.title3)
+                        Button {
+                            print("")
+                        } label: {
+                            Label("Var Olan Kişiye Ekle", systemImage: "person.crop.circle.badge.plus")
+                        }
                     }
-
                 }
             }.frame(height: 100)
-            LazyVGrid(columns: rows, spacing: 20){
+            LazyVGrid(columns: columns, spacing: 20){
                 ForEach(buttons, id: \.self) { button in
                     KeyboardButton(number: button.number, key: button.key, addToNumber: self.addToNumber)
                 }
